@@ -1,0 +1,31 @@
+{
+  "name": "oljstests",
+  "version": "1.0.0",
+  "description": "js tests for ObjectLandWeb",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npx webpack && node --experimental-modules ./test/all.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkgoat/OLJSTests.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Graham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gkgoat/OLJSTests/issues"
+  },
+  "homepage": "https://github.com/gkgoat/OLJSTests#readme",
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "sinon": "^8.1.0"
+  }
+}
